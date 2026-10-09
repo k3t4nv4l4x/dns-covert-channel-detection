@@ -1,0 +1,6 @@
+domain,queries,avg_length,entropy_H,frequency_F,unique_U,score_S,qpm,label
+cloudfront.net,15,13.0,0.645,0.008,0.0667,0.3383,0.5,normal
+microsoft.com,7,5.0,0.4491,0.0036,0.1429,0.2542,0.2,normal
+akamaiedge.net,7,6.0,0.4355,0.0036,0.1429,0.2474,0.2,normal
+ubuntu.com,8,3.0,0.3066,0.0045,0.125,0.1796,0.3,normal
+amazon.com,15,3.0,0.3066,0.008,0.0667,0.169,0.5,normal

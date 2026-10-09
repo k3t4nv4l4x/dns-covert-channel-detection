@@ -1,0 +1,19 @@
+// BIND9 zone configuration for DNS covert channel lab
+// Place in /etc/bind/named.conf.local on VM2 (Gateway/DNS - 192.168.100.2)
+// Forwards DNS queries for lab domains to the Attacker VM (192.168.100.1)
+//
+// Author: Ketan Vala (23688958)
+
+// Zone for iodine tunnel (Scenario 1)
+zone "tunnel.lab" {
+    type forward;
+    forward only;
+    forwarders { 192.168.100.1; };
+};
+
+// Zone for custom C2 channel (Scenarios 2 and 3)
+zone "c2.lab" {
+    type forward;
+    forward only;
+    forwarders { 192.168.100.1; };
+};

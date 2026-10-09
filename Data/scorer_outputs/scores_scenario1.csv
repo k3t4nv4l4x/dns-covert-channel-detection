@@ -1,0 +1,2 @@
+domain,queries,avg_length,entropy_H,frequency_F,unique_U,score_S,qpm,label
+tunnel.lab,1449,21.3,0.6187,1.0,0.4375,0.6968,170.1,attack

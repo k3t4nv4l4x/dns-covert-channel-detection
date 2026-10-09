@@ -1,0 +1,2 @@
+domain,queries,avg_length,entropy_H,frequency_F,unique_U,score_S,qpm,label
+c2.lab,74,29.6,0.7364,0.1302,0.0541,0.4181,7.8,attack

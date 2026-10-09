@@ -1,0 +1,3 @@
+Scenario,A_TPR,A_Rules_Fired,A_Alerts,B_TPR,B_Score,B_Margin,C_TPR,C_Source
+S2 Run 2,0.667,2/3,32,1.0,0.4181,0.0781,1.0,Both A and B
+S3 Run 2,0.333,1/3,10,1.0,0.4131,0.0731,1.0,Both A and B
